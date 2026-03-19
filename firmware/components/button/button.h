@@ -1,0 +1,7 @@
+#pragma once
+
+#include <stdbool.h>
+
+void button_init(void);
+bool button_is_pressed(void);
+bool button_was_pressed_event(void);
